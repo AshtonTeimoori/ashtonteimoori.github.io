@@ -1,6 +1,4 @@
-# Ash's Project Page
-
-## [Ball and Plate PID Controller](BallAndPlatePID.md)
+# [Ball and Plate PID Controller](BallAndPlatePID.md)
 
 <center>
     <video width="500" height="300" controls>
@@ -11,6 +9,8 @@
 
 [Learn more...](BallAndPlatePID.md)
 
-## Lunar Lander
+# Lunar Lander
 
-## Other Projects
+# 2048 Reinforcement Learning
+
+# Other Projects
