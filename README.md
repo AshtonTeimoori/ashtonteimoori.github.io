@@ -1,4 +1,4 @@
-# Ash's Project Page
+<!-- # Ash's Project Page -->
 
 ## [Ball and Plate PID Controller](BallAndPlatePID.md)
 
