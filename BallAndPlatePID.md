@@ -1,5 +1,3 @@
-[Go Home](README.md)
-
 # Ball and Plate PID Controller
 
 <center>
@@ -136,6 +134,8 @@ Through the course of this, I noticed the cheap plastic servo horns that came wi
 ## Controller
 
 ## Integration
+### Convert Code:
+I had written all my platform code in python to prototype, but to get it onto the Arduino, I had to trim it up and convert it into C++. I ended up 
 
 I initially used an Arduino to complete this project, but with the Arduino, the system had a delay of ~0.4 seconds. So as soon as I applied pressure on the plate, the motors would take 0.4 seconds to move. I managed to create a controllable platform, but I truly have no idea why the entire system was so slow. After applying the filters, the response time was ~0.5 seconds. Considering the ball can roll the mThe result of this can be seen in the video below.
 
@@ -157,5 +157,5 @@ I wanted to have a faster response time, and I knew the ESP32 had ~10x clock spe
 
 Overall, I'm pretty happy with it. 
 
-### Convert Code:
-I had written all my platform code in python to prototype, but to get it onto the Arduino, I had to trim it up and convert it into C++. I ended up 
+
+[Go Home](README.md)
