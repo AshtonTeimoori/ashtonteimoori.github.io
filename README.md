@@ -1,6 +1,6 @@
-<!-- # Ash's Project Page -->
+# Ash's Project Page
 
-## Ball and Plate PID Controller
+## [Ball and Plate PID Controller](BallAndPlatePID.md)
 
 <center>
     <video width="500" height="300" controls>
