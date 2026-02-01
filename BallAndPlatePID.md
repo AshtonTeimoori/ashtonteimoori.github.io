@@ -1,4 +1,4 @@
-[Go Home](README.md)
+<p> </p>
 
 # Ball and Plate PID Controller
 
