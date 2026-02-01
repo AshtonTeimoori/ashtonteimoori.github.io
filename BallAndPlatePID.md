@@ -133,9 +133,10 @@ Through the course of this, I noticed the cheap plastic servo horns that came wi
 ## Controller
 
 ## Integration
-### Convert Code:
-I had written all my platform code in python to prototype, but to get it onto the Arduino, I had to trim it up and convert it into C++. I ended up 
+### Convert Code
+I had written all my platform code in python to prototype, but to get it onto the Arduino, I had to trim it up and convert it into C++. I ended up creating classes for each of the subsystems (the Stewart platform, the resistive touch plate and the controller) and a library with all the filter functions, so I can use them on other projects. 
 
+### Arduino Integration
 I initially used an Arduino to complete this project, but with the Arduino, the system had a delay of ~0.4 seconds. So as soon as I applied pressure on the plate, the motors would take 0.4 seconds to move. I managed to create a controllable platform, but I truly have no idea why the entire system was so slow. After applying the filters, the response time was ~0.5 seconds. The result of this can be seen in the video below.
 
 <center>
@@ -145,6 +146,7 @@ I initially used an Arduino to complete this project, but with the Arduino, the 
     <p>Arduino Controller</p>
 </center>
 
+### ESP32 Integration
 I wanted to have a faster response time, and I knew the ESP32 had ~10x clock speed over the Arduino. I had a spare ESP32-Cam laying around and when I uploaded the code to the ESP32, instead of a ~0.4 second response time, it was around ~0.05 second. Which was super encouraging. I still had to do a lot of filters, and when I applied too many filters, the response time increased to about ~0.4 seconds. So, I kept a bit of jitter to still have a good response time. 
 
 <center>
@@ -155,5 +157,19 @@ I wanted to have a faster response time, and I knew the ESP32 had ~10x clock spe
 </center>
 
 Overall, I'm pretty happy with it. Learned a lot and happy to share it with y’all.
+
+## Materials/Electronics/Software
+- Ardunio
+- ESP32
+- PCA9685
+- 4-wire resistive touch plate
+- MatLab & Simulink
+- 3D printer
+- Fusion 360 (CAD Software)
+- DC power supply
+- Servo motors
+- 1-inch ball bearing bearing ball
+- Python
+- C++
 
 [Go Home](README.md)
