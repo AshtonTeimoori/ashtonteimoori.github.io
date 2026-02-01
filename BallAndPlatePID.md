@@ -1,6 +1,6 @@
-hmmm
+[Go Home](README.md)
 
-## Ball and Plate PID Controller
+# Ball and Plate PID Controller
 
 <center>
     <video width="500" height="300" controls>
