@@ -14,8 +14,18 @@ This page is meant to be a log of some of the projects I've worked on.
 
 [Learn more...](BallAndPlatePID.md)
 
-## Lunar Lander
+## [Lunar Lander](https://github.com/AshtonTeimoori/Continuous-Lunar-Lander)
+Project complete, documentation in work...
 
-## 2048 Reinforcement Learning
+<center>
+    <img width="500" height="300" src="imgs\LunarLander\ContinuousLunarLander.gif">
+</center>
 
-## Other Projects
+[Learn more...](https://github.com/AshtonTeimoori/Continuous-Lunar-Lander)
+
+## [2048 Game - Reinforcement Learning](https://github.com/AshtonTeimoori/2048_AI)
+Project complete, documentation in work...
+
+[Learn more...](https://github.com/AshtonTeimoori/2048_AI)
+
+<!-- ## Other Projects -->
