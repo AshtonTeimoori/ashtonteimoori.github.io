@@ -1,5 +1,7 @@
 <p> </p>
 
+Page is curretly under construction...
+
 # Ball and Plate PID Controller
 
 <center>
@@ -18,7 +20,7 @@
 ## Sensor and Filters
 
 ### Sensor / Resistive Touch Plate
-For this project, I used a four-wire resistive touch plate. I won't go into how they work here, since there are many great online sources on how they work, but I will warn you: If you buy a cheap one off of eBay... you'll probably run into sensor quality issues and have to filter the **** out of the signal to get something reasonable, and that'll cause enough delay that its practically uncontrollable. 
+For this project, I used a four-wire resistive touch plate. I won't go into how they work here, since there are many great online sources on how they work, but I will warn you: If you buy a cheap one off of eBay... you'll probably run into sensor quality issues and have to heavily filter the signal to get something reasonable, and that'll cause enough delay that its practically uncontrollable. 
 
 Anyways, the raw signal I got out of the sensor had a lot of dropouts and was pretty much garbage. The dropouts happened for three reasons:
 1. If the ball rolled over one of the bumps that divide up the grid for a resistive touch plate, there would be no change in resistance for the touch plate. This isn't an issue for when a person would push down with their finger because the bumps are so small, your finger would just push around the bump. Since the ball is effectively pushing down on a single point, it'll roll over the bump and there won’t be a sensor value for that point. 
@@ -35,9 +37,9 @@ After those two filters, I still had a pretty noisy signal (see image below).
 And that caused the platform to jitter a bunch, and if the noise was bad enough, it would cause the ball to jitter off of the plate. I tried the easiest filter I could thing
 
 
-[Put in esp32 low pass filter]
+TODO: [Put in esp32 low pass filter]
 
-[Put in alpha-beta filter]
+TODO: [Put in alpha-beta filter]
 
 ## Stewart Platform
 
@@ -131,6 +133,8 @@ With that, all I had to do was pick a point that looked the best to me and plug 
 Through the course of this, I noticed the cheap plastic servo horns that came with the servo motors were deflecting from the weight of the plate, so I upgraded those to aluminum horns.
 
 ## Controller
+
+TODO: Simple PID controller, talk about it and how delay caused issues.
 
 ## Integration
 ### Convert Code

@@ -1,7 +1,7 @@
 <p> </p>
 
 # Ash's Project Page
-This page is meant to be a log of some of the projects I've worked on.
+This page is meant to be a log of some of the projects I've worked on. It is currently under construction.
 
 ## [Ball and Plate PID Controller](BallAndPlatePID.md)
 
